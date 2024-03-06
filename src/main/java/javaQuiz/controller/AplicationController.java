@@ -231,6 +231,7 @@ public class AplicationController {
 	
 	@GetMapping("/login")
     public String showLoginPage() {
+		System.out.println("Iz metode login kontrolera");
         return "login"; // Vraća ime vaše JSP stranice (login.jsp)
     }
 	
