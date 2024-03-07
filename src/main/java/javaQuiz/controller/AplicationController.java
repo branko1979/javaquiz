@@ -48,7 +48,7 @@ public class AplicationController {
 	    if (auth != null) {
 	        new SecurityContextLogoutHandler().logout(request, (jakarta.servlet.http.HttpServletResponse) response, auth);
 	    }
-	    return "redirect:/login"; // Redirect to home page after logout
+	    return "redirect:/login"; // Redirect to home page after logout 
 	}
 	
 	
