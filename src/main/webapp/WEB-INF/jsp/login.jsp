@@ -24,7 +24,10 @@
   </form>
 	<br>
 	<br>
- <h3> U svrhu demonstracije rada mozete se ulogovati kao ADMINISTRATOR sa username: branko , password: sifra</h3>
+ <h2> Za demonstraciju rada mozete se ulogovati kao ADMINISTRATOR sa username: branko , password: sifra</h2>
+ <h2> Da pokrenete kviz se registrujte kao novi user na linku ispod</h2>
+ <br>
+ <h2> Mozete da vidite postojece korisnike i sifre ako se ulogujete kao administrator</h2>
  <br>
  <br>	
  <h3>Nemate nalog? <a href="public/new-user">Registrujte se</a></h3>

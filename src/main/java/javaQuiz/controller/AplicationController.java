@@ -51,6 +51,11 @@ public class AplicationController {
 	    return "redirect:/login"; // Redirect to home page after logout 
 	}
 	
+	@GetMapping("/")
+	public String start() {
+		return "redirect:/login";
+	}
+	
 	
 	@GetMapping("/admin/homeadmin")
 	public String homeAdmin() {
