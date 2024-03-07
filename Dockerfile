@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/transperfectProba-0.0.1-SNAPSHOT.jar transperfectProba.jar
+COPY --from=build /target/transperfectProba-0.0.1-SNAPSHOT.war transperfectProba.war
 EXPOSE 8091
-ENTRYPOINT [ "java","-jar","transperfectProba.jar" ]
+ENTRYPOINT [ "java","-jar","transperfectProba.war" ]
