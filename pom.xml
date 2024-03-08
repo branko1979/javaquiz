@@ -9,7 +9,7 @@
 		<!--  lookup parent from repository  -->
 	</parent>
 	<groupId>com</groupId>
-	<artifactId>transperfectProba</artifactId>
+	<artifactId>javaQuizPostgreSql</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>transperfectProba</name>
